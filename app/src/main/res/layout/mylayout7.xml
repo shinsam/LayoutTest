@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:stretchColumns="0,3"
+    android:layout_height="match_parent">
+    <TableRow >
+        <Button android:text="이름" style="@style/title_style" />
+        <Button android:text="국어" style="@style/title_style" />
+        <Button android:text="영어" style="@style/title_style" />
+        <Button android:text="수학" style="@style/title_style" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="박성연" style="@style/row_style"/>
+        <TextView android:text="100" style="@style/row_style"/>
+        <TextView android:text="90" style="@style/row_style"/>
+        <TextView android:text="95" style="@style/row_style"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="이성준" style="@style/row_style"/>
+        <TextView android:text="90" style="@style/row_style"/>
+        <TextView android:text="95" style="@style/row_style"/>
+        <TextView android:text="85" style="@style/row_style"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="합계" android:layout_span="3" />
+        <TextView android:text="180" />
+    </TableRow>
+
+</TableLayout>
